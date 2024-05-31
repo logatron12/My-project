@@ -14,11 +14,8 @@ public class DatosEjercicio3 : MonoBehaviour
 
     public void check()
     {
-        cc = GameObject.Find("CablesConsola").GetComponent<cajaCables>();
-        cc = GameObject.Find("CablesRed").GetComponent<cajaCables>();
-        cc = GameObject.Find("CablesPower").GetComponent<cajaCables>();
-        cc = GameObject.Find("CablesSerial").GetComponent<cajaCables>();
-       // ip = GameObject.Find("ipconfig").GetComponent<asignarip>();
+        cc = GameObject.Find("Interfaz").GetComponent<cajaCables>();
+        // ip = GameObject.Find("ipconfig").GetComponent<asignarip>();
 
         if (cc.consola == true && cc.red == true && cc.serial == true && cc.power == true)
         {
@@ -28,7 +25,7 @@ public class DatosEjercicio3 : MonoBehaviour
         
 
         inp = GetComponent<Interp>();
-        if (inp.tr1 == true && inp.tr2 == true && inp.tr3 == true)
+        if (inp.tr1 == true && inp.tr2 == true && inp.tr3 == true && inp.tr4 == true && inp.tr5 == true && inp.tr6 == true)
         {
             win2 = true;
         }
@@ -49,7 +46,7 @@ public class DatosEjercicio3 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+        check();
     }
 
 

@@ -55,10 +55,12 @@ public class Switch : MonoBehaviour
     }
     public void On()
     {
-
+        cc = GameObject.Find("Interfaz").GetComponent<cajaCables>();
         if (Power == true) {
 
+            cc.cont1 = cc.cont1 + 1;
             Encendido = true;
+            cc.encendido(cc.cont1);
 
             //if ( cont1 == 0)
             //{
@@ -356,21 +358,21 @@ public class Switch : MonoBehaviour
         //else 
         if (gameObject.tag == "Router")
         {
-            if (CableLAN2 == false && to.redlock == true && cable.playerLan == false)
+            if(CableLAN2 == false && to.redlock == true && cable.playerLan2 == false)
             {
-                if (cable.playerLan2 == false)
+                if (cable.playerLan == false)
                 {
-                    to.fase = 1;
+                    to.fase = 2;
                     cc.recogerred(to.fase);
-                    cable.playerLan = true;
+                    cable.playerLan2 = true;
                     CableLAN2 = true;
                     to.fase = 0;
                 }
-                else if (cable.playerLan2 == true)
+                else if (cable.playerLan == true)
                 {
                     to.fase = 3;
                     cc.recogerred(to.fase);
-                    cable.playerLan = true;
+                    cable.playerLan2 = true;
                     CableLAN2 = true;
                     to.fase = 0;
                 }
@@ -435,22 +437,24 @@ public class Switch : MonoBehaviour
         }
         else if (gameObject.tag == "Switch")
         {
-            if (CableLAN3 == false && to.redlock == true && cable.playerLan2 == false)
+            if (to.redlock == true)
             {
-                if (cable.playerLan == false)
+                if (cable.playerLan2 == false)
                 {
-                    to.fase = 2;
+                    to.fase = 1;
                     cc.recogerred(to.fase);
-                    cable.playerLan2 = true;
-                    CableLAN3 = true;
+                    cable.playerLan = true;
+                    CableLAN = true;
                     to.fase = 0;
                 }
-                else if (cable.playerLan == true)
+
+
+                else if (cable.playerLan == false && cable.playerLan2 == true)
                 {
                     to.fase = 3;
                     cc.recogerred(to.fase);
                     cable.playerLan2 = true;
-                    CableLAN3 = true;
+                    CableLAN = true;
                     to.fase = 0;
                 }
             }

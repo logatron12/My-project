@@ -307,6 +307,7 @@ MonoBehaviour:
   to: {fileID: 0}
   cable: {fileID: 0}
   s: {fileID: 0}
+  cont1: 0
 --- !u!1 &11034075
 GameObject:
   m_ObjectHideFlags: 0
@@ -390,6 +391,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 734038643}
     m_Modifications:
+    - target: {fileID: 153023089497652112, guid: 2b3f89045f1373743ae9f56b96db1068, type: 3}
+      propertyPath: m_Text
+      value: 'Switch->  '
+      objectReference: {fileID: 0}
     - target: {fileID: 1136178608675836011, guid: 2b3f89045f1373743ae9f56b96db1068, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -1364,7 +1369,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 873271211}
+      - m_Target: {fileID: 1201051439}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj5
         m_Mode: 1
@@ -1493,6 +1498,64 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 52468768}
   m_CullTransparentMesh: 1
+--- !u!1 &57346638 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f406f228276f06c4389957460cbfb2a9, type: 3}
+  m_PrefabInstance: {fileID: 1156455649}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &57346639 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f406f228276f06c4389957460cbfb2a9, type: 3}
+  m_PrefabInstance: {fileID: 1156455649}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &57346640
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57346638}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &57346641
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57346638}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &64848424
 GameObject:
   m_ObjectHideFlags: 0
@@ -2064,7 +2127,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 564296232}
+      - m_Target: {fileID: 1102935826}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj9
         m_Mode: 1
@@ -3376,7 +3439,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 57346639}
+  - {fileID: 850151262}
   - {fileID: 2026031373}
+  - {fileID: 1265309106}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &142112948
@@ -4166,7 +4232,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 873271211}
+      - m_Target: {fileID: 1201051439}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: On
         m_Mode: 1
@@ -4637,7 +4703,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 564296232}
+      - m_Target: {fileID: 1102935826}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj5
         m_Mode: 1
@@ -4787,6 +4853,7 @@ MonoBehaviour:
   to: {fileID: 0}
   cable: {fileID: 0}
   s: {fileID: 0}
+  cont1: 0
 --- !u!1 &169302676
 GameObject:
   m_ObjectHideFlags: 0
@@ -6331,7 +6398,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 564296232}
+      - m_Target: {fileID: 1102935826}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj8
         m_Mode: 1
@@ -6547,7 +6614,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 564296232}
+      - m_Target: {fileID: 1102935826}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: console
         m_Mode: 1
@@ -6654,24 +6721,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '-Realiza las conexiones entre los dispositivos
-
-    -Configura los puertos
-    troncales en los switches
-
-
-    IP:
-
-    192.168.20.1 255.255.255.0
-
-    192.168.30.1
-    255.255.255.0
-
-    Vlan nativa:    99
-
-    Vlans Permitidas:   10 , 20
-
-'
+  m_text: "-Realizar las conexiones entre los dispositivos.\n\n-Configurar los puertos
+    troncales en los switches.\n\n-Configurar VLANs en los switches para permitir
+    que PC0 y PC1 se comuniquen (VLAN 10) y que PC2 y PC3 se comuniquen (VLAN 20),
+    asegurando que no haya comunicaci\xF3n entre VLANs diferentes"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6935,6 +6988,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   consolecable: 0
+  redcable: 0
 --- !u!114 &239212813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6962,15 +7016,27 @@ MonoBehaviour:
   rip1: 0
   rip2: 0
   rip3: 0
+  rip4: 0
   rr: 0
   eigrp1: 0
   eigrp2: 0
   eigrp3: 0
+  eigrp4: 0
   eg: 0
   tr1: 0
   tr2: 0
   tr3: 0
+  tr4: 0
+  tr5: 0
+  tr6: 0
   cont: 0
+  cont1: 1
+  cont2: 1
+  cont3: 1
+  cont4: 1
+  cont5: 1
+  cont6: 0
+  cont7: 0
 --- !u!114 &239212814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7589,7 +7655,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 873271211}
+      - m_Target: {fileID: 1201051439}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj2
         m_Mode: 1
@@ -8007,7 +8073,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 873271211}
+      - m_Target: {fileID: 1201051439}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj3
         m_Mode: 1
@@ -8175,7 +8241,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 873271211}
+      - m_Target: {fileID: 1201051439}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj8
         m_Mode: 1
@@ -8307,7 +8373,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 740275500}
+      - m_Target: {fileID: 1033574677}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj1
         m_Mode: 1
@@ -8689,7 +8755,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 564296232}
+      - m_Target: {fileID: 1102935826}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj1
         m_Mode: 1
@@ -9277,7 +9343,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Router->  '
+  m_Text: 'Switch->  '
 --- !u!222 &316146908
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10823,7 +10889,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1218607610}
+      - m_Target: {fileID: 157139450}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj2
         m_Mode: 1
@@ -10955,7 +11021,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 740275500}
+      - m_Target: {fileID: 1033574677}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj2
         m_Mode: 1
@@ -11519,7 +11585,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 873271211}
+      - m_Target: {fileID: 1201051439}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: energia
         m_Mode: 1
@@ -11772,7 +11838,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 873271211}
+      - m_Target: {fileID: 1201051439}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj9
         m_Mode: 1
@@ -12347,7 +12413,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Router->  '
+  m_Text: 'Switch->  '
 --- !u!222 &446390650
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13665,7 +13731,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 564296232}
+      - m_Target: {fileID: 1102935826}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj12
         m_Mode: 1
@@ -13934,6 +14000,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 313570441}
     m_Modifications:
+    - target: {fileID: 153023089497652112, guid: 2b3f89045f1373743ae9f56b96db1068, type: 3}
+      propertyPath: m_Text
+      value: 'Switch->  '
+      objectReference: {fileID: 0}
     - target: {fileID: 1136178608675836011, guid: 2b3f89045f1373743ae9f56b96db1068, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -14587,7 +14657,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 740275500}
+      - m_Target: {fileID: 1033574677}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj9
         m_Mode: 1
@@ -16259,7 +16329,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1218607610}
+      - m_Target: {fileID: 157139450}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj3
         m_Mode: 1
@@ -16466,7 +16536,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 564296232}
+      - m_Target: {fileID: 1102935826}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj7
         m_Mode: 1
@@ -17390,7 +17460,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Router->  '
+  m_Text: 'Switch->  '
 --- !u!222 &646902152
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17887,7 +17957,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 873271211}
+      - m_Target: {fileID: 1201051439}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj10
         m_Mode: 1
@@ -18019,7 +18089,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1218607610}
+      - m_Target: {fileID: 157139450}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj8
         m_Mode: 1
@@ -18356,7 +18426,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 564296232}
+      - m_Target: {fileID: 1102935826}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj6
         m_Mode: 1
@@ -18765,6 +18835,7 @@ MonoBehaviour:
   to: {fileID: 0}
   cable: {fileID: 0}
   s: {fileID: 0}
+  cont1: 0
 --- !u!1 &704445192
 GameObject:
   m_ObjectHideFlags: 0
@@ -19116,6 +19187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   consolecable: 0
+  redcable: 0
 --- !u!114 &717964845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19143,15 +19215,27 @@ MonoBehaviour:
   rip1: 0
   rip2: 0
   rip3: 0
+  rip4: 0
   rr: 0
   eigrp1: 0
   eigrp2: 0
   eigrp3: 0
+  eigrp4: 0
   eg: 0
   tr1: 0
   tr2: 0
   tr3: 0
+  tr4: 0
+  tr5: 0
+  tr6: 0
   cont: 0
+  cont1: 1
+  cont2: 1
+  cont3: 1
+  cont4: 1
+  cont5: 1
+  cont6: 0
+  cont7: 0
 --- !u!114 &717964846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19210,6 +19294,7 @@ MonoBehaviour:
   to: {fileID: 0}
   cable: {fileID: 0}
   s: {fileID: 0}
+  cont1: 0
 --- !u!1 &719080349
 GameObject:
   m_ObjectHideFlags: 0
@@ -20087,6 +20172,7 @@ MonoBehaviour:
   to: {fileID: 0}
   cable: {fileID: 0}
   s: {fileID: 0}
+  cont1: 0
 --- !u!1 &761713058
 GameObject:
   m_ObjectHideFlags: 0
@@ -20169,7 +20255,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 740275500}
+      - m_Target: {fileID: 1033574677}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: energia
         m_Mode: 1
@@ -21217,6 +21303,7 @@ MonoBehaviour:
   to: {fileID: 0}
   cable: {fileID: 0}
   s: {fileID: 0}
+  cont1: 0
 --- !u!1 &802478879
 GameObject:
   m_ObjectHideFlags: 0
@@ -21379,15 +21466,27 @@ MonoBehaviour:
   rip1: 0
   rip2: 0
   rip3: 0
+  rip4: 0
   rr: 0
   eigrp1: 0
   eigrp2: 0
   eigrp3: 0
+  eigrp4: 0
   eg: 0
   tr1: 0
   tr2: 0
   tr3: 0
+  tr4: 0
+  tr5: 0
+  tr6: 0
   cont: 0
+  cont1: 1
+  cont2: 1
+  cont3: 1
+  cont4: 1
+  cont5: 1
+  cont6: 0
+  cont7: 0
 --- !u!114 &802478886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21551,6 +21650,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   consolecable: 0
+  redcable: 0
 --- !u!114 &803210461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21578,15 +21678,27 @@ MonoBehaviour:
   rip1: 0
   rip2: 0
   rip3: 0
+  rip4: 0
   rr: 0
   eigrp1: 0
   eigrp2: 0
   eigrp3: 0
+  eigrp4: 0
   eg: 0
   tr1: 0
   tr2: 0
   tr3: 0
+  tr4: 0
+  tr5: 0
+  tr6: 0
   cont: 0
+  cont1: 1
+  cont2: 1
+  cont3: 1
+  cont4: 1
+  cont5: 1
+  cont6: 0
+  cont7: 0
 --- !u!114 &803210462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22041,7 +22153,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1218607610}
+      - m_Target: {fileID: 157139450}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj11
         m_Mode: 1
@@ -22477,6 +22589,89 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 824054310}
   m_CullTransparentMesh: 1
+--- !u!1001 &825913684
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 140716772}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: d2d7b0b6c655e2840b0402bee0a89383, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.3016381
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d2d7b0b6c655e2840b0402bee0a89383, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.34699726
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d2d7b0b6c655e2840b0402bee0a89383, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -12.2155
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d2d7b0b6c655e2840b0402bee0a89383, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d2d7b0b6c655e2840b0402bee0a89383, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d2d7b0b6c655e2840b0402bee0a89383, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d2d7b0b6c655e2840b0402bee0a89383, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d2d7b0b6c655e2840b0402bee0a89383, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d2d7b0b6c655e2840b0402bee0a89383, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d2d7b0b6c655e2840b0402bee0a89383, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5076484507258936684, guid: d2d7b0b6c655e2840b0402bee0a89383, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d2d7b0b6c655e2840b0402bee0a89383, type: 3}
+      propertyPath: m_Name
+      value: keyboard (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3101955822697646450, guid: d2d7b0b6c655e2840b0402bee0a89383, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.6259632
+      objectReference: {fileID: 0}
+    - target: {fileID: 3101955822697646450, guid: d2d7b0b6c655e2840b0402bee0a89383, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5261782
+      objectReference: {fileID: 0}
+    - target: {fileID: 3101955822697646450, guid: d2d7b0b6c655e2840b0402bee0a89383, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.339
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 65702495048144492, guid: d2d7b0b6c655e2840b0402bee0a89383, type: 3}
+    - {fileID: 5148817236446094103, guid: d2d7b0b6c655e2840b0402bee0a89383, type: 3}
+    - {fileID: 3472778375830378061, guid: d2d7b0b6c655e2840b0402bee0a89383, type: 3}
+    - {fileID: 5392398322951045289, guid: d2d7b0b6c655e2840b0402bee0a89383, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d2d7b0b6c655e2840b0402bee0a89383, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 850151264}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d2d7b0b6c655e2840b0402bee0a89383, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 850151263}
+  m_SourcePrefab: {fileID: 100100000, guid: d2d7b0b6c655e2840b0402bee0a89383, type: 3}
 --- !u!1 &831195957
 GameObject:
   m_ObjectHideFlags: 0
@@ -23069,7 +23264,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 564296232}
+      - m_Target: {fileID: 1102935826}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj2
         m_Mode: 1
@@ -23189,7 +23384,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Router->  '
+  m_Text: 'Switch->  '
 --- !u!222 &848464163
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23198,6 +23393,64 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 848464160}
   m_CullTransparentMesh: 1
+--- !u!1 &850151261 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d2d7b0b6c655e2840b0402bee0a89383, type: 3}
+  m_PrefabInstance: {fileID: 825913684}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &850151262 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d2d7b0b6c655e2840b0402bee0a89383, type: 3}
+  m_PrefabInstance: {fileID: 825913684}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &850151263
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850151261}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &850151264
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850151261}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &850756256
 GameObject:
   m_ObjectHideFlags: 0
@@ -23824,9 +24077,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 564296231}
+      - m_Target: {fileID: 1102935827}
         m_TargetAssemblyTypeName: menudispositivo, Assembly-CSharp
-        m_MethodName: Encendido
+        m_MethodName: Resumir
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -23836,9 +24089,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 564296231}
+      - m_Target: {fileID: 1102935827}
         m_TargetAssemblyTypeName: menudispositivo, Assembly-CSharp
-        m_MethodName: Resumir
+        m_MethodName: Encendido
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -24024,6 +24277,7 @@ MonoBehaviour:
   to: {fileID: 0}
   cable: {fileID: 0}
   s: {fileID: 0}
+  cont1: 0
 --- !u!1 &886049291
 GameObject:
   m_ObjectHideFlags: 0
@@ -24621,7 +24875,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 740275500}
+      - m_Target: {fileID: 1033574677}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj5
         m_Mode: 1
@@ -24754,7 +25008,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1218607610}
+      - m_Target: {fileID: 157139450}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: On
         m_Mode: 1
@@ -26044,7 +26298,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1218607610}
+      - m_Target: {fileID: 157139450}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: energia
         m_Mode: 1
@@ -26846,7 +27100,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Router->  '
+  m_Text: 'Switch->  '
 --- !u!222 &978956559
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -27772,7 +28026,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 740275499}
+      - m_Target: {fileID: 1033574678}
         m_TargetAssemblyTypeName: menudispositivo, Assembly-CSharp
         m_MethodName: Resumir
         m_Mode: 1
@@ -27784,7 +28038,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 740275499}
+      - m_Target: {fileID: 1033574678}
         m_TargetAssemblyTypeName: menudispositivo, Assembly-CSharp
         m_MethodName: Encendido
         m_Mode: 1
@@ -28595,7 +28849,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 873271211}
+      - m_Target: {fileID: 1201051439}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj1
         m_Mode: 1
@@ -29282,7 +29536,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 873271211}
+      - m_Target: {fileID: 1201051439}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: Off
         m_Mode: 1
@@ -29629,6 +29883,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 552023967}
     m_Modifications:
+    - target: {fileID: 153023089497652112, guid: 2b3f89045f1373743ae9f56b96db1068, type: 3}
+      propertyPath: m_Text
+      value: 'Switch->  '
+      objectReference: {fileID: 0}
     - target: {fileID: 1136178608675836011, guid: 2b3f89045f1373743ae9f56b96db1068, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -30347,7 +30605,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 564296232}
+      - m_Target: {fileID: 1102935826}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: energia
         m_Mode: 1
@@ -30479,7 +30737,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 873271211}
+      - m_Target: {fileID: 1201051439}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj6
         m_Mode: 1
@@ -31074,6 +31332,7 @@ MonoBehaviour:
   to: {fileID: 0}
   cable: {fileID: 0}
   s: {fileID: 0}
+  cont1: 0
 --- !u!1 &1140060514
 GameObject:
   m_ObjectHideFlags: 0
@@ -31314,7 +31573,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 740275500}
+      - m_Target: {fileID: 1033574677}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj4
         m_Mode: 1
@@ -31443,6 +31702,91 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1152723240}
   m_CullTransparentMesh: 1
+--- !u!1001 &1156455649
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 140716772}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f406f228276f06c4389957460cbfb2a9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f406f228276f06c4389957460cbfb2a9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f406f228276f06c4389957460cbfb2a9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f406f228276f06c4389957460cbfb2a9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.8016381
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f406f228276f06c4389957460cbfb2a9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.73199725
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f406f228276f06c4389957460cbfb2a9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.77
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f406f228276f06c4389957460cbfb2a9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f406f228276f06c4389957460cbfb2a9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f406f228276f06c4389957460cbfb2a9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f406f228276f06c4389957460cbfb2a9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f406f228276f06c4389957460cbfb2a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f406f228276f06c4389957460cbfb2a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f406f228276f06c4389957460cbfb2a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: f406f228276f06c4389957460cbfb2a9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 64c1545d5d451dc46a848c38bc053672, type: 2}
+    - target: {fileID: -1418168387022425682, guid: f406f228276f06c4389957460cbfb2a9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 64c1545d5d451dc46a848c38bc053672, type: 2}
+    - target: {fileID: 919132149155446097, guid: f406f228276f06c4389957460cbfb2a9, type: 3}
+      propertyPath: m_Name
+      value: Monitor2 (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: -8700617353114198275, guid: f406f228276f06c4389957460cbfb2a9, type: 3}
+    - {fileID: 65702495048144492, guid: f406f228276f06c4389957460cbfb2a9, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f406f228276f06c4389957460cbfb2a9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 57346641}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f406f228276f06c4389957460cbfb2a9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 57346640}
+  m_SourcePrefab: {fileID: 100100000, guid: f406f228276f06c4389957460cbfb2a9, type: 3}
 --- !u!1001 &1161003940
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31802,7 +32146,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 740275500}
+      - m_Target: {fileID: 1033574677}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj7
         m_Mode: 1
@@ -31934,7 +32278,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 873271211}
+      - m_Target: {fileID: 1201051439}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: console
         m_Mode: 1
@@ -32218,7 +32562,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 740275500}
+      - m_Target: {fileID: 1033574677}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj8
         m_Mode: 1
@@ -32619,7 +32963,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1218607610}
+      - m_Target: {fileID: 157139450}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj5
         m_Mode: 1
@@ -33026,7 +33370,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 564296232}
+      - m_Target: {fileID: 1102935826}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj11
         m_Mode: 1
@@ -33233,7 +33577,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 564296232}
+      - m_Target: {fileID: 1102935826}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj10
         m_Mode: 1
@@ -33972,7 +34316,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1218607610}
+      - m_Target: {fileID: 157139450}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj6
         m_Mode: 1
@@ -34247,6 +34591,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   consolecable: 0
+  redcable: 0
 --- !u!114 &1242457281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34296,15 +34641,27 @@ MonoBehaviour:
   rip1: 0
   rip2: 0
   rip3: 0
+  rip4: 0
   rr: 0
   eigrp1: 0
   eigrp2: 0
   eigrp3: 0
+  eigrp4: 0
   eg: 0
   tr1: 0
   tr2: 0
   tr3: 0
+  tr4: 0
+  tr5: 0
+  tr6: 0
   cont: 0
+  cont1: 1
+  cont2: 1
+  cont3: 1
+  cont4: 1
+  cont5: 1
+  cont6: 0
+  cont7: 0
 --- !u!114 &1242457283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34449,7 +34806,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1218607610}
+      - m_Target: {fileID: 157139450}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj4
         m_Mode: 1
@@ -35127,6 +35484,92 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1255453222}
   m_CullTransparentMesh: 1
+--- !u!1 &1265309105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1265309106}
+  - component: {fileID: 1265309108}
+  - component: {fileID: 1265309107}
+  m_Layer: 0
+  m_Name: Mouse 2 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1265309106
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1265309105}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.5, y: 0.5, z: 0.5, w: -0.5}
+  m_LocalPosition: {x: 1.1236382, y: 0.2681997, z: -8.175}
+  m_LocalScale: {x: 0.07705013, y: 0.08941094, z: 0.055174764}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 140716772}
+  m_LocalEulerAnglesHint: {x: -90, y: 180, z: -90}
+--- !u!23 &1265309107
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1265309105}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -3846018093981099296, guid: 9449719dd5d892543abf8278a174689e, type: 3}
+  - {fileID: -6478536213147159724, guid: 9449719dd5d892543abf8278a174689e, type: 3}
+  - {fileID: 4518247019319433312, guid: 9449719dd5d892543abf8278a174689e, type: 3}
+  - {fileID: 4874126678125670354, guid: 9449719dd5d892543abf8278a174689e, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1265309108
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1265309105}
+  m_Mesh: {fileID: -6915272511953747994, guid: 9449719dd5d892543abf8278a174689e, type: 3}
 --- !u!1001 &1266102857
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35135,6 +35578,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1028638731}
     m_Modifications:
+    - target: {fileID: 153023089497652112, guid: 2b3f89045f1373743ae9f56b96db1068, type: 3}
+      propertyPath: m_Text
+      value: 'Switch->  '
+      objectReference: {fileID: 0}
     - target: {fileID: 1136178608675836011, guid: 2b3f89045f1373743ae9f56b96db1068, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -35348,7 +35795,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1218607610}
+      - m_Target: {fileID: 157139450}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj7
         m_Mode: 1
@@ -36719,7 +37166,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Router->  '
+  m_Text: 'Switch->  '
 --- !u!222 &1337839766
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -36943,7 +37390,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 564296232}
+      - m_Target: {fileID: 1102935826}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: Off
         m_Mode: 1
@@ -37811,7 +38258,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Router->  '
+  m_Text: 'Switch->  '
 --- !u!222 &1381237742
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -38288,7 +38735,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1218607609}
+      - m_Target: {fileID: 157139451}
         m_TargetAssemblyTypeName: menudispositivo, Assembly-CSharp
         m_MethodName: Resumir
         m_Mode: 1
@@ -38300,7 +38747,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1218607609}
+      - m_Target: {fileID: 157139451}
         m_TargetAssemblyTypeName: menudispositivo, Assembly-CSharp
         m_MethodName: Encendido
         m_Mode: 1
@@ -38659,7 +39106,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 192.168.30.3
+  m_Text: 192.168.20.3
 --- !u!222 &1409395504
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -38768,6 +39215,7 @@ MonoBehaviour:
   to: {fileID: 0}
   cable: {fileID: 0}
   s: {fileID: 0}
+  cont1: 0
 --- !u!1 &1413083641
 GameObject:
   m_ObjectHideFlags: 0
@@ -39960,6 +40408,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   consolecable: 0
+  redcable: 0
 --- !u!114 &1464105268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39987,15 +40436,27 @@ MonoBehaviour:
   rip1: 0
   rip2: 0
   rip3: 0
+  rip4: 0
   rr: 0
   eigrp1: 0
   eigrp2: 0
   eigrp3: 0
+  eigrp4: 0
   eg: 0
   tr1: 0
   tr2: 0
   tr3: 0
+  tr4: 0
+  tr5: 0
+  tr6: 0
   cont: 0
+  cont1: 1
+  cont2: 1
+  cont3: 1
+  cont4: 1
+  cont5: 1
+  cont6: 0
+  cont7: 0
 --- !u!114 &1464105269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42101,6 +42562,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   consolecable: 0
+  redcable: 0
 --- !u!114 &1509276573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42128,15 +42590,27 @@ MonoBehaviour:
   rip1: 0
   rip2: 0
   rip3: 0
+  rip4: 0
   rr: 0
   eigrp1: 0
   eigrp2: 0
   eigrp3: 0
+  eigrp4: 0
   eg: 0
   tr1: 0
   tr2: 0
   tr3: 0
+  tr4: 0
+  tr5: 0
+  tr6: 0
   cont: 0
+  cont1: 1
+  cont2: 1
+  cont3: 1
+  cont4: 1
+  cont5: 1
+  cont6: 0
+  cont7: 0
 --- !u!114 &1509276574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42258,7 +42732,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 873271210}
+      - m_Target: {fileID: 1201051440}
         m_TargetAssemblyTypeName: menudispositivo, Assembly-CSharp
         m_MethodName: Resumir
         m_Mode: 1
@@ -42270,7 +42744,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 873271210}
+      - m_Target: {fileID: 1201051440}
         m_TargetAssemblyTypeName: menudispositivo, Assembly-CSharp
         m_MethodName: Encendido
         m_Mode: 1
@@ -42403,7 +42877,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 740275500}
+      - m_Target: {fileID: 1033574677}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: Off
         m_Mode: 1
@@ -43413,7 +43887,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 740275500}
+      - m_Target: {fileID: 1033574677}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj6
         m_Mode: 1
@@ -43655,7 +44129,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 740275500}
+      - m_Target: {fileID: 1033574677}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: console
         m_Mode: 1
@@ -43831,6 +44305,7 @@ MonoBehaviour:
   to: {fileID: 0}
   cable: {fileID: 0}
   s: {fileID: 0}
+  cont1: 0
 --- !u!1 &1568986106
 GameObject:
   m_ObjectHideFlags: 0
@@ -44688,7 +45163,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 564296232}
+      - m_Target: {fileID: 1102935826}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj3
         m_Mode: 1
@@ -45154,7 +45629,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1218607610}
+      - m_Target: {fileID: 157139450}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj12
         m_Mode: 1
@@ -45287,7 +45762,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 740275500}
+      - m_Target: {fileID: 1033574677}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: On
         m_Mode: 1
@@ -45847,7 +46322,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 740275500}
+      - m_Target: {fileID: 1033574677}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj10
         m_Mode: 1
@@ -46024,6 +46499,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1278074365}
     m_Modifications:
+    - target: {fileID: 153023089497652112, guid: 2b3f89045f1373743ae9f56b96db1068, type: 3}
+      propertyPath: m_Text
+      value: 'Switch->  '
+      objectReference: {fileID: 0}
     - target: {fileID: 1136178608675836011, guid: 2b3f89045f1373743ae9f56b96db1068, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -46396,7 +46875,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 740275500}
+      - m_Target: {fileID: 1033574677}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj12
         m_Mode: 1
@@ -48084,7 +48563,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Router->  '
+  m_Text: 'Switch->  '
 --- !u!222 &1713816566
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -49333,7 +49812,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 740275500}
+      - m_Target: {fileID: 1033574677}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj3
         m_Mode: 1
@@ -49960,7 +50439,7 @@ MonoBehaviour:
   playerConsol2: 0
   playerSerial2: 0
   nombre: 
-  s: {fileID: 439225205}
+  s: {fileID: 0}
 --- !u!114 &1768916892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49988,15 +50467,27 @@ MonoBehaviour:
   rip1: 0
   rip2: 0
   rip3: 0
+  rip4: 0
   rr: 0
   eigrp1: 0
   eigrp2: 0
   eigrp3: 0
+  eigrp4: 0
   eg: 0
   tr1: 0
   tr2: 0
   tr3: 0
+  tr4: 0
+  tr5: 0
+  tr6: 0
   cont: 0
+  cont1: 1
+  cont2: 1
+  cont3: 1
+  cont4: 1
+  cont5: 1
+  cont6: 0
+  cont7: 0
 --- !u!114 &1768916893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50018,7 +50509,7 @@ MonoBehaviour:
   playerConsol2: 0
   playerSerial2: 0
   nombre: 
-  s: {fileID: 1033574677}
+  s: {fileID: 0}
 --- !u!114 &1768916894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50288,7 +50779,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ping exitoso
+  m_Text: VLANS establecidas
 --- !u!222 &1780296467
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -50854,7 +51345,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1218607610}
+      - m_Target: {fileID: 157139450}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj10
         m_Mode: 1
@@ -51456,7 +51947,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 564296232}
+      - m_Target: {fileID: 1102935826}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: On
         m_Mode: 1
@@ -52328,7 +52819,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1218607610}
+      - m_Target: {fileID: 157139450}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj9
         m_Mode: 1
@@ -52842,7 +53333,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1218607610}
+      - m_Target: {fileID: 157139450}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: Off
         m_Mode: 1
@@ -53483,6 +53974,7 @@ MonoBehaviour:
   to: {fileID: 0}
   cable: {fileID: 0}
   s: {fileID: 0}
+  cont1: 0
 --- !u!65 &1905269651
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -53651,7 +54143,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 873271211}
+      - m_Target: {fileID: 1201051439}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj12
         m_Mode: 1
@@ -54775,6 +55267,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   consolecable: 0
+  redcable: 0
 --- !u!114 &1943853116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54824,15 +55317,27 @@ MonoBehaviour:
   rip1: 0
   rip2: 0
   rip3: 0
+  rip4: 0
   rr: 0
   eigrp1: 0
   eigrp2: 0
   eigrp3: 0
+  eigrp4: 0
   eg: 0
   tr1: 0
   tr2: 0
   tr3: 0
+  tr4: 0
+  tr5: 0
+  tr6: 0
   cont: 0
+  cont1: 1
+  cont2: 1
+  cont3: 1
+  cont4: 1
+  cont5: 1
+  cont6: 0
+  cont7: 0
 --- !u!114 &1943853118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55266,6 +55771,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   consolecable: 0
+  redcable: 0
 --- !u!114 &1962498986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55293,15 +55799,27 @@ MonoBehaviour:
   rip1: 0
   rip2: 0
   rip3: 0
+  rip4: 0
   rr: 0
   eigrp1: 0
   eigrp2: 0
   eigrp3: 0
+  eigrp4: 0
   eg: 0
   tr1: 0
   tr2: 0
   tr3: 0
+  tr4: 0
+  tr5: 0
+  tr6: 0
   cont: 0
+  cont1: 1
+  cont2: 1
+  cont3: 1
+  cont4: 1
+  cont5: 1
+  cont6: 0
+  cont7: 0
 --- !u!114 &1962498987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55660,7 +56178,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 873271211}
+      - m_Target: {fileID: 1201051439}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj11
         m_Mode: 1
@@ -56961,7 +57479,6 @@ GameObject:
   - component: {fileID: 2026031372}
   - component: {fileID: 2026031371}
   - component: {fileID: 2026031370}
-  - component: {fileID: 2026031369}
   - component: {fileID: 2026031368}
   - component: {fileID: 2026031374}
   - component: {fileID: 2026031376}
@@ -56997,31 +57514,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &2026031369
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2026031367}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &2026031370
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -57041,8 +57537,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 4}
+  m_Center: {x: 0, y: 0, z: -1.5}
 --- !u!23 &2026031371
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -57102,7 +57598,7 @@ Transform:
   m_GameObject: {fileID: 2026031367}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.1676383, y: 0.72899723, z: 16.61}
+  m_LocalPosition: {x: 1.1676383, y: 0.72899723, z: -7.7700005}
   m_LocalScale: {x: 0.7, y: 0.75, z: 0.4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -57121,6 +57617,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   consolecable: 0
+  redcable: 0
 --- !u!114 &2026031375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57148,15 +57645,27 @@ MonoBehaviour:
   rip1: 0
   rip2: 0
   rip3: 0
+  rip4: 0
   rr: 0
   eigrp1: 0
   eigrp2: 0
   eigrp3: 0
+  eigrp4: 0
   eg: 0
   tr1: 0
   tr2: 0
   tr3: 0
+  tr4: 0
+  tr5: 0
+  tr6: 0
   cont: 0
+  cont1: 1
+  cont2: 1
+  cont3: 1
+  cont4: 1
+  cont5: 1
+  cont6: 0
+  cont7: 0
 --- !u!114 &2026031376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57316,6 +57825,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 462302119}
     m_Modifications:
+    - target: {fileID: 153023089497652112, guid: 2b3f89045f1373743ae9f56b96db1068, type: 3}
+      propertyPath: m_Text
+      value: 'Switch->  '
+      objectReference: {fileID: 0}
     - target: {fileID: 1136178608675836011, guid: 2b3f89045f1373743ae9f56b96db1068, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -57762,7 +58275,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1218607610}
+      - m_Target: {fileID: 157139450}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj1
         m_Mode: 1
@@ -58596,7 +59109,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 740275500}
+      - m_Target: {fileID: 1033574677}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj11
         m_Mode: 1
@@ -58850,7 +59363,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 873271211}
+      - m_Target: {fileID: 1201051439}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj4
         m_Mode: 1
@@ -59282,6 +59795,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1660215436}
     m_Modifications:
+    - target: {fileID: 153023089497652112, guid: 2b3f89045f1373743ae9f56b96db1068, type: 3}
+      propertyPath: m_Text
+      value: 'Switch->  '
+      objectReference: {fileID: 0}
     - target: {fileID: 1136178608675836011, guid: 2b3f89045f1373743ae9f56b96db1068, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -59622,7 +60139,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Router->  '
+  m_Text: 'Switch->  '
 --- !u!222 &2107736032
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -59914,7 +60431,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 564296232}
+      - m_Target: {fileID: 1102935826}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj4
         m_Mode: 1
@@ -60555,7 +61072,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1218607610}
+      - m_Target: {fileID: 157139450}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: console
         m_Mode: 1
@@ -60692,6 +61209,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 446302932}
     m_Modifications:
+    - target: {fileID: 153023089497652112, guid: 2b3f89045f1373743ae9f56b96db1068, type: 3}
+      propertyPath: m_Text
+      value: 'Switch->  '
+      objectReference: {fileID: 0}
     - target: {fileID: 1136178608675836011, guid: 2b3f89045f1373743ae9f56b96db1068, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -61443,7 +61964,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 873271211}
+      - m_Target: {fileID: 1201051439}
         m_TargetAssemblyTypeName: Switch, Assembly-CSharp
         m_MethodName: rj7
         m_Mode: 1
@@ -61646,6 +62167,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1924280826}
     m_Modifications:
+    - target: {fileID: 153023089497652112, guid: 2b3f89045f1373743ae9f56b96db1068, type: 3}
+      propertyPath: m_Text
+      value: 'Switch->  '
+      objectReference: {fileID: 0}
     - target: {fileID: 1136178608675836011, guid: 2b3f89045f1373743ae9f56b96db1068, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1

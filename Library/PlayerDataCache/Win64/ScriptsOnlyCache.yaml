@@ -4,6 +4,9 @@ ScriptsOnlyBuild:
     - Cables
     - CameraInteraction
     - DatosEjercicio
+    - DatosEjercicio1
+    - DatosEjercicio2
+    - DatosEjercicio3
     - Interactable
     - Interp
     - MenuInterfaz
@@ -92,6 +95,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: menuprincipal
     methodName: Salir
+  - assembly: Assembly-CSharp
+    fullTypeName: menuprincipal
+    methodName: Empezarnivel
   - assembly: Assembly-CSharp
     fullTypeName: menuprincipal
     methodName: Empezarnivel
@@ -578,8 +584,1880 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Switch
     methodName: rj7
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: console
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj5
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj9
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: console
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: On
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj5
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Encendido
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj1
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj8
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: console
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj3
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj8
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj1
+  - assembly: Assembly-CSharp
+    fullTypeName: menupausa
+    methodName: Salir
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: Off
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: energia
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj9
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj12
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj9
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj3
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj7
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: On
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: energia
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: guardar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj10
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj8
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj6
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: guardar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: energia
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Encendido
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: energia
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj11
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: guardar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj2
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Encendido
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: Terminar
+    methodName: Empezarnivel
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj5
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: On
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj1
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: energia
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: On
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Encendido
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: guardar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: Off
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: Off
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: energia
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj6
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: s1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj4
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj7
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: console
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj8
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj5
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj11
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj10
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: On
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj6
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj4
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj7
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Off
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: s1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: Off
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: energia
+  - assembly: Assembly-CSharp
+    fullTypeName: menupausa
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: On
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Encendido
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: s2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: Off
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Encendido
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: Off
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: console
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: s2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj6
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: console
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj3
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: guardar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj12
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: On
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj10
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj12
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Encendido
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: guardar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: console
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: s2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj3
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj10
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: On
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj2
+  - assembly: Assembly-CSharp
+    fullTypeName: menupausa
+    methodName: RegresarMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: energia
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj9
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Encendido
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: s1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: Off
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: Terminar
+    methodName: Salir
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj12
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj11
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: guardar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: s1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj11
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj4
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj4
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: s2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: console
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj7
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: console
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj5
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj9
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: console
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: On
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj5
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Encendido
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj1
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj8
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: console
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj3
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj8
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj1
+  - assembly: Assembly-CSharp
+    fullTypeName: menupausa
+    methodName: Salir
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: Off
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: energia
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj9
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj12
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj9
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj3
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj7
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: On
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: energia
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: guardar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj10
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj8
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj6
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: guardar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: energia
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Encendido
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: energia
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj11
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: guardar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj2
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Encendido
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: Terminar
+    methodName: Empezarnivel
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj5
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: On
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj1
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: energia
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: On
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Encendido
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: guardar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: Off
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: Off
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: energia
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj6
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: s1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj4
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj7
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: console
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj8
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj5
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj11
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj10
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: On
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj6
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj4
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj7
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Off
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: s1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: Off
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: energia
+  - assembly: Assembly-CSharp
+    fullTypeName: menupausa
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: On
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Encendido
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: s2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: Off
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Encendido
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: Off
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: console
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: s2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj6
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: console
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj3
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: guardar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj12
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: On
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj10
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj12
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Encendido
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: guardar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: console
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: s2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj3
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj10
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: On
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj2
+  - assembly: Assembly-CSharp
+    fullTypeName: menupausa
+    methodName: RegresarMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: energia
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj9
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Encendido
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: s1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: Off
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: Terminar
+    methodName: Salir
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj12
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj11
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: guardar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: s1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj11
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj4
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj4
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: s2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: console
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj7
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: console
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj5
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj9
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: console
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: On
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj5
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Encendido
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj1
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj8
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: console
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj3
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj8
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj1
+  - assembly: Assembly-CSharp
+    fullTypeName: menupausa
+    methodName: Salir
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: Off
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: energia
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj9
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj12
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj9
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj3
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj7
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: On
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: energia
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: guardar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj10
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj8
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj6
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: guardar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: energia
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Encendido
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: energia
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj11
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: guardar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj2
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Encendido
+  - assembly: Assembly-CSharp
+    fullTypeName: Terminar
+    methodName: Empezarnivel
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj5
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: On
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj1
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: energia
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: On
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Encendido
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: guardar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: Off
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: Off
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: energia
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj6
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: s1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj4
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj7
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: console
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj8
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj5
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj11
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj10
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: On
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj6
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj4
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj7
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Off
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: s1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: Off
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: energia
+  - assembly: Assembly-CSharp
+    fullTypeName: menupausa
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: On
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Encendido
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: s2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: Off
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Encendido
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: Off
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: console
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: s2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj6
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: console
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj3
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: guardar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj12
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: On
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj10
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj12
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Encendido
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: guardar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: console
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: s2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj3
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj10
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: On
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj2
+  - assembly: Assembly-CSharp
+    fullTypeName: menupausa
+    methodName: RegresarMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: energia
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj9
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Encendido
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: s1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: Off
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: Terminar
+    methodName: Salir
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj12
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj11
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: guardar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: s1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj11
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj4
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj4
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: s2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: console
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj7
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: console
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj5
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj9
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: console
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: On
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj5
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Encendido
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj1
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj8
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: console
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj3
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj8
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj1
+  - assembly: Assembly-CSharp
+    fullTypeName: menupausa
+    methodName: Salir
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: Off
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: energia
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj9
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj12
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj9
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj3
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj7
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: On
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: energia
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: guardar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj10
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj8
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj6
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: guardar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: energia
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Encendido
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: energia
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj11
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: guardar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj2
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Encendido
+  - assembly: Assembly-CSharp
+    fullTypeName: Terminar
+    methodName: Empezarnivel
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj5
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: On
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj1
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: energia
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: On
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Encendido
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: guardar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: Off
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: Off
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: energia
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj6
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: s1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj4
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj7
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: console
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj8
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj5
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj11
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj10
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: On
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj6
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj4
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj7
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Off
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: s1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: Off
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: energia
+  - assembly: Assembly-CSharp
+    fullTypeName: menupausa
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: On
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Encendido
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: s2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: Off
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Encendido
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: Off
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: console
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: s2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj6
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: console
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj3
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: guardar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj12
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: On
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj10
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj12
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: TerminalManager
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Encendido
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: guardar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: console
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: s2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj3
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj10
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: On
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj2
+  - assembly: Assembly-CSharp
+    fullTypeName: menupausa
+    methodName: RegresarMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: energia
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj9
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: menudispositivo
+    methodName: Encendido
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: s1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: Off
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: Terminar
+    methodName: Salir
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj12
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj11
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: guardar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: s1
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj11
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj4
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj4
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: s2
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: console
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Resumir
+  - assembly: Assembly-CSharp
+    fullTypeName: asignarip
+    methodName: Reutilizar
+  - assembly: Assembly-CSharp
+    fullTypeName: Switch
+    methodName: rj7
   sceneClasses:
-    Assets/Scenes/Ejercicio1.unity:
+    Assets/Scenes/Ejercicio 1.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -613,67 +2491,527 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1562}
+      Script: {instanceID: 1564}
     - Class: 114
-      Script: {instanceID: 1604}
+      Script: {instanceID: 1606}
     - Class: 114
-      Script: {instanceID: 2604}
+      Script: {instanceID: 2606}
     - Class: 114
-      Script: {instanceID: 2792}
+      Script: {instanceID: 2794}
     - Class: 114
-      Script: {instanceID: 2796}
+      Script: {instanceID: 2798}
     - Class: 114
-      Script: {instanceID: 2812}
+      Script: {instanceID: 2814}
     - Class: 114
-      Script: {instanceID: 2858}
+      Script: {instanceID: 2860}
     - Class: 114
-      Script: {instanceID: 3098}
+      Script: {instanceID: 3100}
     - Class: 114
-      Script: {instanceID: 3526}
+      Script: {instanceID: 3528}
     - Class: 114
-      Script: {instanceID: 3860}
+      Script: {instanceID: 3864}
     - Class: 114
-      Script: {instanceID: 4188}
+      Script: {instanceID: 4192}
     - Class: 114
-      Script: {instanceID: 4626}
+      Script: {instanceID: 4630}
     - Class: 114
-      Script: {instanceID: 4764}
+      Script: {instanceID: 4768}
     - Class: 114
-      Script: {instanceID: 5046}
+      Script: {instanceID: 5050}
     - Class: 114
-      Script: {instanceID: 5154}
+      Script: {instanceID: 5158}
     - Class: 114
-      Script: {instanceID: 5260}
+      Script: {instanceID: 5264}
     - Class: 114
-      Script: {instanceID: 5296}
+      Script: {instanceID: 5300}
     - Class: 114
-      Script: {instanceID: 5352}
+      Script: {instanceID: 5356}
     - Class: 114
-      Script: {instanceID: 5492}
+      Script: {instanceID: 5496}
     - Class: 114
-      Script: {instanceID: 5588}
+      Script: {instanceID: 5592}
     - Class: 114
-      Script: {instanceID: 5600}
+      Script: {instanceID: 5604}
     - Class: 114
-      Script: {instanceID: 5640}
+      Script: {instanceID: 5644}
     - Class: 114
-      Script: {instanceID: 5902}
+      Script: {instanceID: 5906}
     - Class: 114
-      Script: {instanceID: 5910}
+      Script: {instanceID: 5914}
     - Class: 114
-      Script: {instanceID: 6070}
+      Script: {instanceID: 6074}
     - Class: 114
-      Script: {instanceID: 6474}
+      Script: {instanceID: 6478}
     - Class: 114
-      Script: {instanceID: 6680}
-    - Class: 114
-      Script: {instanceID: 7108}
+      Script: {instanceID: 6684}
     - Class: 114
       Script: {instanceID: 7112}
     - Class: 114
-      Script: {instanceID: 7208}
+      Script: {instanceID: 7116}
     - Class: 114
-      Script: {instanceID: 7666}
+      Script: {instanceID: 7212}
+    - Class: 114
+      Script: {instanceID: 7670}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Ejercicio 2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1564}
+    - Class: 114
+      Script: {instanceID: 1606}
+    - Class: 114
+      Script: {instanceID: 1976}
+    - Class: 114
+      Script: {instanceID: 2606}
+    - Class: 114
+      Script: {instanceID: 2794}
+    - Class: 114
+      Script: {instanceID: 2798}
+    - Class: 114
+      Script: {instanceID: 2814}
+    - Class: 114
+      Script: {instanceID: 2860}
+    - Class: 114
+      Script: {instanceID: 3100}
+    - Class: 114
+      Script: {instanceID: 3528}
+    - Class: 114
+      Script: {instanceID: 3864}
+    - Class: 114
+      Script: {instanceID: 4192}
+    - Class: 114
+      Script: {instanceID: 4630}
+    - Class: 114
+      Script: {instanceID: 4768}
+    - Class: 114
+      Script: {instanceID: 5050}
+    - Class: 114
+      Script: {instanceID: 5158}
+    - Class: 114
+      Script: {instanceID: 5264}
+    - Class: 114
+      Script: {instanceID: 5300}
+    - Class: 114
+      Script: {instanceID: 5496}
+    - Class: 114
+      Script: {instanceID: 5592}
+    - Class: 114
+      Script: {instanceID: 5604}
+    - Class: 114
+      Script: {instanceID: 5644}
+    - Class: 114
+      Script: {instanceID: 5906}
+    - Class: 114
+      Script: {instanceID: 5914}
+    - Class: 114
+      Script: {instanceID: 6074}
+    - Class: 114
+      Script: {instanceID: 6478}
+    - Class: 114
+      Script: {instanceID: 6684}
+    - Class: 114
+      Script: {instanceID: 7112}
+    - Class: 114
+      Script: {instanceID: 7116}
+    - Class: 114
+      Script: {instanceID: 7212}
+    - Class: 114
+      Script: {instanceID: 7670}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Ejercicio 3.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1564}
+    - Class: 114
+      Script: {instanceID: 1606}
+    - Class: 114
+      Script: {instanceID: 2606}
+    - Class: 114
+      Script: {instanceID: 2794}
+    - Class: 114
+      Script: {instanceID: 2798}
+    - Class: 114
+      Script: {instanceID: 2814}
+    - Class: 114
+      Script: {instanceID: 2860}
+    - Class: 114
+      Script: {instanceID: 3100}
+    - Class: 114
+      Script: {instanceID: 3200}
+    - Class: 114
+      Script: {instanceID: 3528}
+    - Class: 114
+      Script: {instanceID: 3864}
+    - Class: 114
+      Script: {instanceID: 4192}
+    - Class: 114
+      Script: {instanceID: 4630}
+    - Class: 114
+      Script: {instanceID: 4768}
+    - Class: 114
+      Script: {instanceID: 5050}
+    - Class: 114
+      Script: {instanceID: 5158}
+    - Class: 114
+      Script: {instanceID: 5264}
+    - Class: 114
+      Script: {instanceID: 5300}
+    - Class: 114
+      Script: {instanceID: 5496}
+    - Class: 114
+      Script: {instanceID: 5592}
+    - Class: 114
+      Script: {instanceID: 5604}
+    - Class: 114
+      Script: {instanceID: 5644}
+    - Class: 114
+      Script: {instanceID: 5906}
+    - Class: 114
+      Script: {instanceID: 5914}
+    - Class: 114
+      Script: {instanceID: 6074}
+    - Class: 114
+      Script: {instanceID: 6478}
+    - Class: 114
+      Script: {instanceID: 6684}
+    - Class: 114
+      Script: {instanceID: 7112}
+    - Class: 114
+      Script: {instanceID: 7116}
+    - Class: 114
+      Script: {instanceID: 7212}
+    - Class: 114
+      Script: {instanceID: 7670}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Ejercicio 4.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1564}
+    - Class: 114
+      Script: {instanceID: 1606}
+    - Class: 114
+      Script: {instanceID: 2606}
+    - Class: 114
+      Script: {instanceID: 2794}
+    - Class: 114
+      Script: {instanceID: 2798}
+    - Class: 114
+      Script: {instanceID: 2814}
+    - Class: 114
+      Script: {instanceID: 2860}
+    - Class: 114
+      Script: {instanceID: 3100}
+    - Class: 114
+      Script: {instanceID: 3506}
+    - Class: 114
+      Script: {instanceID: 3528}
+    - Class: 114
+      Script: {instanceID: 3864}
+    - Class: 114
+      Script: {instanceID: 4192}
+    - Class: 114
+      Script: {instanceID: 4630}
+    - Class: 114
+      Script: {instanceID: 4768}
+    - Class: 114
+      Script: {instanceID: 5050}
+    - Class: 114
+      Script: {instanceID: 5158}
+    - Class: 114
+      Script: {instanceID: 5264}
+    - Class: 114
+      Script: {instanceID: 5300}
+    - Class: 114
+      Script: {instanceID: 5496}
+    - Class: 114
+      Script: {instanceID: 5592}
+    - Class: 114
+      Script: {instanceID: 5604}
+    - Class: 114
+      Script: {instanceID: 5644}
+    - Class: 114
+      Script: {instanceID: 5906}
+    - Class: 114
+      Script: {instanceID: 5914}
+    - Class: 114
+      Script: {instanceID: 6074}
+    - Class: 114
+      Script: {instanceID: 6478}
+    - Class: 114
+      Script: {instanceID: 6684}
+    - Class: 114
+      Script: {instanceID: 7112}
+    - Class: 114
+      Script: {instanceID: 7116}
+    - Class: 114
+      Script: {instanceID: 7212}
+    - Class: 114
+      Script: {instanceID: 7670}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Ejercicio 5.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1564}
+    - Class: 114
+      Script: {instanceID: 1606}
+    - Class: 114
+      Script: {instanceID: 2606}
+    - Class: 114
+      Script: {instanceID: 2794}
+    - Class: 114
+      Script: {instanceID: 2798}
+    - Class: 114
+      Script: {instanceID: 2814}
+    - Class: 114
+      Script: {instanceID: 2860}
+    - Class: 114
+      Script: {instanceID: 3100}
+    - Class: 114
+      Script: {instanceID: 3506}
+    - Class: 114
+      Script: {instanceID: 3528}
+    - Class: 114
+      Script: {instanceID: 3864}
+    - Class: 114
+      Script: {instanceID: 4192}
+    - Class: 114
+      Script: {instanceID: 4630}
+    - Class: 114
+      Script: {instanceID: 4768}
+    - Class: 114
+      Script: {instanceID: 5050}
+    - Class: 114
+      Script: {instanceID: 5158}
+    - Class: 114
+      Script: {instanceID: 5264}
+    - Class: 114
+      Script: {instanceID: 5300}
+    - Class: 114
+      Script: {instanceID: 5496}
+    - Class: 114
+      Script: {instanceID: 5592}
+    - Class: 114
+      Script: {instanceID: 5604}
+    - Class: 114
+      Script: {instanceID: 5644}
+    - Class: 114
+      Script: {instanceID: 5906}
+    - Class: 114
+      Script: {instanceID: 5914}
+    - Class: 114
+      Script: {instanceID: 6074}
+    - Class: 114
+      Script: {instanceID: 6478}
+    - Class: 114
+      Script: {instanceID: 6684}
+    - Class: 114
+      Script: {instanceID: 7112}
+    - Class: 114
+      Script: {instanceID: 7116}
+    - Class: 114
+      Script: {instanceID: 7212}
+    - Class: 114
+      Script: {instanceID: 7670}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -718,31 +3056,31 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1604}
+      Script: {instanceID: 1606}
     - Class: 114
-      Script: {instanceID: 2186}
+      Script: {instanceID: 2188}
     - Class: 114
-      Script: {instanceID: 2604}
+      Script: {instanceID: 2606}
     - Class: 114
-      Script: {instanceID: 2812}
+      Script: {instanceID: 2814}
     - Class: 114
-      Script: {instanceID: 3098}
+      Script: {instanceID: 3100}
     - Class: 114
-      Script: {instanceID: 3980}
+      Script: {instanceID: 3984}
     - Class: 114
-      Script: {instanceID: 4088}
+      Script: {instanceID: 4092}
     - Class: 114
-      Script: {instanceID: 4340}
+      Script: {instanceID: 4344}
     - Class: 114
-      Script: {instanceID: 4898}
+      Script: {instanceID: 4902}
     - Class: 114
-      Script: {instanceID: 5046}
+      Script: {instanceID: 5050}
     - Class: 114
-      Script: {instanceID: 5296}
+      Script: {instanceID: 5300}
     - Class: 114
-      Script: {instanceID: 5600}
+      Script: {instanceID: 5604}
     - Class: 114
-      Script: {instanceID: 6070}
+      Script: {instanceID: 6074}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -781,21 +3119,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1604}
+      Script: {instanceID: 1606}
     - Class: 114
-      Script: {instanceID: 2604}
+      Script: {instanceID: 2606}
     - Class: 114
-      Script: {instanceID: 2812}
+      Script: {instanceID: 2814}
     - Class: 114
-      Script: {instanceID: 3098}
+      Script: {instanceID: 3100}
     - Class: 114
-      Script: {instanceID: 4898}
+      Script: {instanceID: 4902}
     - Class: 114
-      Script: {instanceID: 5296}
+      Script: {instanceID: 5300}
     - Class: 114
-      Script: {instanceID: 5600}
+      Script: {instanceID: 5604}
     - Class: 114
-      Script: {instanceID: 6070}
+      Script: {instanceID: 6074}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -893,7 +3231,7 @@ ScriptsOnlyBuild:
     className: SimpleScript
   - hash:
       serializedVersion: 2
-      Hash: 4019383ab9621b3a9ae8b19cc47af458
+      Hash: d6a7739bdaad62251b2ebca14c96476f
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: DatosEjercicio1
@@ -1001,7 +3339,7 @@ ScriptsOnlyBuild:
     className: CoroutineRunner
   - hash:
       serializedVersion: 2
-      Hash: aed19153e2b152d9b62d69baacc583b8
+      Hash: 8e9c3c7433090ae81ac63cbdda09e29d
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: cajaCables
@@ -1103,7 +3441,7 @@ ScriptsOnlyBuild:
     className: UnityOnMouseDownMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 4019383ab9621b3a9ae8b19cc47af458
+      Hash: d6a7739bdaad62251b2ebca14c96476f
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: DatosEjercicio2
@@ -1175,7 +3513,7 @@ ScriptsOnlyBuild:
     className: UnityOnControllerColliderHitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 4019383ab9621b3a9ae8b19cc47af458
+      Hash: d6a7739bdaad62251b2ebca14c96476f
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: DatosEjercicio3
@@ -1313,7 +3651,7 @@ ScriptsOnlyBuild:
     className: DictionaryAsset
   - hash:
       serializedVersion: 2
-      Hash: 9dff98603b589493c351b7ac39816b97
+      Hash: 7db833599be290ddf98bc07cc6190c16
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PC
@@ -1373,7 +3711,7 @@ ScriptsOnlyBuild:
     className: TMP_TextInfoDebugTool
   - hash:
       serializedVersion: 2
-      Hash: 4eea52e9ab6b1e82006c9bc92daa6dd3
+      Hash: 477063378b2d06108a5d20cea2cd2327
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Interp
@@ -1981,5 +4319,9 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/Seleccion.unity
-  - Assets/Scenes/Ejercicio1.unity
-  playerPath: C:/Users/Jhojan/Documents/Proyecto de grado/Simulador.exe
+  - Assets/Scenes/Ejercicio 1.unity
+  - Assets/Scenes/Ejercicio 2.unity
+  - Assets/Scenes/Ejercicio 3.unity
+  - Assets/Scenes/Ejercicio 4.unity
+  - Assets/Scenes/Ejercicio 5.unity
+  playerPath: C:/Users/Jhojan/Desktop/Proyecto Final/Simulador.exe

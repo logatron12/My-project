@@ -168,6 +168,28 @@ public class TakeObject : MonoBehaviour
                     cable.playerConsol2 = true;
                     fase = 0;
                 }
+            }else if (Input.GetKey("t") && cable.playerLan2 == false && redlock == true && pc.redcable == false)
+            {
+                cc = GameObject.Find("CablesRed").GetComponent<cajaCables>();
+                if (cable.playerLan == false)
+                {
+                    fase = 2;
+                    cc.recogerred(fase);
+
+                    pc.cablered();
+                    cable.playerLan2 = true;
+                    fase = 0;
+
+                }
+                else if (cable.playerLan == true)
+                {
+                    fase = 3;
+                    cc.recogerred(fase);
+
+                    pc.cablered();
+                    cable.playerLan2 = true;
+                    fase = 0;
+                }
             }
             else if (Input.GetKey("q") && pickedObject == null)
             {

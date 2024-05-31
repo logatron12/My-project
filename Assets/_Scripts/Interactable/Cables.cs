@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class Cables : MonoBehaviour
 {
@@ -19,7 +21,19 @@ public class Cables : MonoBehaviour
 
     public void Awake()
     {
-        //s = GameObject.FindWithTag("Router").GetComponent<Switch>();
+        if (SceneManager.GetActiveScene().name == "Ejercicio 4")
+        {
+            s = GameObject.FindWithTag("Switch").GetComponent<Switch>();
+        }
+        else
+        if ((SceneManager.GetActiveScene().name == "Ejercicio 1") || (SceneManager.GetActiveScene().name == "Ejercicio 2") || (SceneManager.GetActiveScene().name == "Ejercicio 3"))
+        {
+            s = GameObject.FindWithTag("Router").GetComponent<Switch>();
+        }
+
+        ;
+            
+        
     }
 
     public void Tageo()

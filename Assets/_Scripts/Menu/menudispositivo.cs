@@ -8,6 +8,7 @@ public class menudispositivo : MonoBehaviour
     public GameObject ObejetoMenuPausa;
     public bool Pausa = false;
     public bool P = false;
+    menupausa mp;
 
 
 
@@ -26,10 +27,18 @@ public class menudispositivo : MonoBehaviour
 
     }
 
+    private void Awake()
+    {
+        mp = GameObject.Find("CanvasPausa").GetComponent<menupausa>();
+    }
+
     // Update is called once per frame
     void Update()
     {
-       
+        if (Input.GetKeyDown(KeyCode.Escape) && mp.Pausa == true)
+        {
+            Resumir2();
+        }
 
     }
 
@@ -50,7 +59,7 @@ public class menudispositivo : MonoBehaviour
                 Cursor.visible = true;
                 Cursor.lockState = CursorLockMode.None;
                 GameObject.Find("Player").GetComponent<PlayerController>().enabled = false;
-
+                
             }
         }
     }
@@ -80,7 +89,16 @@ public class menudispositivo : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         GameObject.Find("Player").GetComponent<PlayerController>().enabled = true;
         Pausa = false;
+        
 
+    }
+    public void Resumir2()
+    {
+        string nombreDispositivo = gameObject.name;
+        GameObject.Find(nombreDispositivo).GetComponent<menudispositivo>().Pausa = false;
+        ObejetoMenuPausa.SetActive(false);
+        gameObject.GetComponent<menudispositivo>().Reutilizar();
+        
 
     }
 
